@@ -1,0 +1,42 @@
+/* a繧ｿ繧ｰ */
+.fc-h-event {
+    background-color: transparent;
+    border: none;
+    text-align: right;
+    pointer-events: none; /* 繝昴う繝ｳ繧ｿ繝ｼ繧､繝吶Φ繝医ｒ辟｡隕悶☆繧� */
+  }
+  
+  /* 繧ｫ繝ｬ繝ｳ繝繝ｼ縺ｮ閭梧勹濶ｲ險ｭ螳� */
+  .fc-daygrid-body,
+  .fc-day {
+    background-color: white; /* 閭梧勹濶ｲ繧堤區縺ｫ險ｭ螳� */
+  }
+  
+  .fc-col-header-cell {
+    background-color: #42a5f5;
+    color: white; /* 繝倥ャ繝繝ｼ縺ｮ繝�く繧ｹ繝郁牡繧堤區縺ｫ險ｭ螳� */
+  }
+  
+  .fc .fc-daygrid-day-frame {
+    height: 100%;
+    min-height: 100px;
+  }
+  
+  /* 繧ｫ繧ｹ繧ｿ繝�繧､繝吶Φ繝医�隕九◆逶ｮ縺薙％縺九ｉ */
+  .money {
+    white-space: nowrap; /* 繝�く繧ｹ繝医ｒ謚倥ｊ霑斐＆縺ｪ縺� */
+    overflow: hidden; /* 縺ｯ縺ｿ蜃ｺ縺励◆繝�く繧ｹ繝医ｒ髫�縺� */
+    text-overflow: ellipsis; /* 縺ｯ縺ｿ蜃ｺ縺励◆繝�く繧ｹ繝医�莉｣繧上ｊ縺ｫ逵∫払險伜捷繧定｡ｨ遉ｺ */
+  }
+  
+  #event-income {
+    color: #2196f3;
+  }
+  
+  #event-expense {
+    color: #f44336;
+  }
+  
+  #event-balance {
+    color: #4caf50;
+  }
